@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ClickCraft Photography</title>
+        <meta name = "viewport" content = "width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <!-- header -->
+        <header class = "header">
+            <div class = "nav-section">
+                <div class = "brand-and-navBtn">
+                    <span class = "brand-name">
+                        ClickCraft 
+                    </span>
+                    <span class = "navBtn flex">
+                        <i class = "fas fa-bars"></i>
+                    </span>
+                </div>
+
+                <!-- navigation menu -->
+                <nav class = "top-nav">
+                    <ul>
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "gallery.html">Gallery</a></li>
+                        <li><a href = "price.html">Price</a></li>
+                        <li><a href = "contact.html" class = "active">Contact Us</a></li>
+                        <li><a href = "about_us.html">About Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class = "container about">
+                <div class = "about-content">
+                    <div class = "about-img flex">
+                        <img src = "images/img1.webp" alt = "photographer img">
+                    </div>
+                    <h2>I'm Molcolm Lismore</h2>
+                    <h3>Freelance Photographer</h3>
+                    <blockquote>
+                        "Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever ... It remembers little things, long after you have forgotten everything."
+                        <span>-Aaron Siskind</span>
+                    </blockquote>
+                </div>
+
+                <div class = "social-icons">
+                    <ul>
+                        <li>
+                            <a href = "https://web.facebook.com/?_rdc=1&_rdr"><i class = "fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href = "https://x.com/Dishan49214973t=h1UfqNQS_KLTA_Jzt7MklQ&s=09"><i class = "fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href = "https://instagram.com/raj_dishan?igshid=NzZlODBkYWE4Ng=="><i class = "fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href = "www.linkedin.com/in/anandaraja-dishan"><i class = "fab fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- main -->
+        <section class = "section-five">
+            <div class = "container">
+                <div class = "contact-top">
+                    <h3>CONTACT ME</h3>
+                    <p>For inquiries or bookings, please feel free to contact me using the information provided below. I am available for a wide range of photography services, including weddings, portraits, and special events. Let me capture the beauty of your special moments and create lasting memories.</p>
+                </div>
+
+                <div class = "contact-middle">
+                    <div>
+                        <span class = "contact-icon">
+                            <i class = "fas fa-map-signs"></i>
+                        </span>
+                        <span>Address</span>
+                        <p>No 03, De Fonseka Place, Colombo 04 <br> Sri Lanka</p>
+                    </div>
+
+                    <div>
+                        <span class = "contact-icon">
+                            <i class = "fas fa-phone"></i>
+                        </span>
+                        <span>Contact Number</span>
+                        <p>+94 117 572 572</p>
+                    </div>
+
+                    <div>
+                        <span class = "contact-icon">
+                            <i class = "fas fa-paper-plane"></i>
+                        </span>
+                        <span>Email Address</span>
+                        <p>info@esoft.lk</p>
+                    </div>
+
+                    <div>
+                        <span class = "contact-icon">
+                            <i class = "fas fa-globe"></i>
+                        </span>
+                        <span>Website</span>
+                        <p>esoft.lk</p>
+                    </div>
+                </div>
+                <h2>&nbsp&nbsp&nbsp Enqiry Form</h2>
+                <div class = "contact-bottom">
+                    <form class = "form" action="enquiry.php" method="post">
+                        <input type = "text" placeholder="Your First Name" name="fname" required>
+                        <input type = "text" placeholder="Your Last Name" name="lname" required>
+                        <input type = "email" placeholder="Your Email" name="email" required>
+                        <input type = "text" placeholder="Your Address" name="address" required>
+                        <input type = "text" placeholder="Your Whatsapp No." name="w_no" required>
+                        <input type="text" name="date" placeholder="Date of the Event" onfocus="(this.type='date')" onblur="if(!this.value) this.type='text'" required>
+                        <select name="event_type" required>
+                            <option value="" disabled selected hidden>Event Type</option>
+                            <option value="wedding">Wedding</option>
+                            <option value="portrait">Portrait</option>
+                            <option value="SpecialEvent">Special Event</option>
+                        </select>
+                        <textarea rows = "9" placeholder="Special Request"name="s_req"></textarea>
+                        <input type = "submit" class = "btn" value = "Submit">
+                    </form>
+
+                    <!-- Map -->
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25519.643428159146!2d79.83587612059522!3d6.87980258256309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25bc303199601%3A0xae20e31365516d8b!2sESOFT%20Metro%20Campus%20(Block%20E)!5e0!3m2!1sen!2sus!4v1702107803639!5m2!1sen!2sus" width="100%" height="600px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of main -->
+
+
+        <!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container container">
+                <div>
+                    <h2>Molcolm Lismore</h2>
+                    <p>My name is Molcolm Lismore and I have been touching lives through the art of photography over the past decade. My passion for photography combined with the love for human emotions enable me to capture moments in the most moving and creative ways.</p>
+                </div>
+                <div>
+                    <h3>Contact Us Now!</h3>
+                    <p>Fil out the form below to get in toch with us. We are eager to help you with your photography needs.</p>
+                    <p>Clik the button to hire me.</p>
+                    
+                    <div class="view">
+                        <a href = "contact.html" class = "btn">Hire Me!</a>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; Copyright MolcolmLismore. | Capture the stunning moments with us..</p>
+        </footer>
+        <!-- end of footer -->
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
