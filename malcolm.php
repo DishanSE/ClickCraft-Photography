@@ -34,7 +34,7 @@
             <th>Special Request</th>
         </tr>
         <?php
-        $conn = mysqli_connect("localhost", "root", "", "ClickCraft_Photography");
+        $conn = mysqli_connect("localhost:3307", "root", "", "ClickCraft_Photography");
         if ($conn-> connect_error) {
             die ("connection failed: ".$conn-> connect_error);
         }

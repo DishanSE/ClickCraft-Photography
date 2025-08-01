@@ -1,6 +1,6 @@
 <?php 
 
-$sName = "localhost";
+$sName = "localhost:3307";
 $uName = "root";
 $pass = "";
 $db_name = "ClickCraft_Photography";
